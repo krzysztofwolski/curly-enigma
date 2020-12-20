@@ -1,6 +1,7 @@
 {
-  "name": "with-typescript",
+  "name": "i18n-saleor-app",
   "version": "1.0.0",
+  "description": "Your best friend, if you are trying to translate Saleor using external platforms.",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -10,12 +11,20 @@
   "dependencies": {
     "next": "latest",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.0",
+    "typeorm": "^0.2.29"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-decorators": "^7.12.1",
     "@types/node": "^12.12.21",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
+    "babel-plugin-parameter-decorator": "^1.0.16",
+    "babel-plugin-transform-typescript-metadata": "^0.3.1",
     "typescript": "4.0"
   },
   "license": "MIT"
